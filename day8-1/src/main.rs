@@ -1,3 +1,4 @@
+//主函数
 fn main() {
     // 定义一个字符串
     let x = String::from("helllo");
