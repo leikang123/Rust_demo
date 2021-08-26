@@ -1,5 +1,7 @@
 fn main() {
+    // 枚举类
     enum Book {
+        // 枚举的类型
         Papery(u32),
         Electronic(String),
     }
