@@ -1,4 +1,5 @@
 mod back_of_house {
+    // 定义结构体
     pub struct Breakfast {
         pub toast: String,
         seasonal_fruit: String,
