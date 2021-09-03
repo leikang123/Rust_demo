@@ -1,5 +1,6 @@
 // 定义option枚举类
 enum Option<T> {
+    // 枚举的种类
     Some(T),
     None,
 }
