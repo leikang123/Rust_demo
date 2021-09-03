@@ -1,11 +1,13 @@
-// 定义结构体
+// 定义trait函数，trait可以是很多功能
 trait doubt {
     // 定义方法dou带参数返回值self
     fn dou(&self) -> Self;
 }
-// 实现结构体
+// 实现trait
 impl doubt for i32 {
+    // 实现dout的方法dou以及功能
     fn dou(&self) -> Self {
+        // 值
         *self * 2
     }
 }
