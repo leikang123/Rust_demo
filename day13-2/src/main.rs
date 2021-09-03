@@ -6,7 +6,7 @@ struct abc{
 }
 // 实现结构体
 impl abc {
-    // 结构体方法
+    // 结构体方法，返回值
     fn create(width: u32, height: u32) -> Rectangle {
         Rectangle { width, height }
     }
